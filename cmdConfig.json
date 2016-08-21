@@ -1,0 +1,18 @@
+{
+    "application":
+    {
+        "baudRate":115200,
+        "serialPort":"/dev/ttyACM0",
+        "aws":
+        {
+             "keyPath": "/home/pi/certs/private.pem.key",
+            "certPath": "/home/pi/certs/certificate.pem.crt",
+              "caPath": "/home/pi/certs/root-CA.crt",
+            "clientId": "RBPI",
+              "region": "us-east-1",
+                "host": "a32it3byb82n9e.iot.us-east-1.amazonaws.com",
+          "deviceName": "rbpi3_1",
+          "operationTimeout": 10000
+        } 
+    }
+}
